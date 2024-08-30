@@ -53,7 +53,7 @@ cat <<EOF > eso_policy.json
         "secretsmanager:GetSecretValue",
         "secretsmanager:DescribeSecret",
         "secretsmanager:ListSecretVersionIds",
-		"secretsmanager:GetResourcePolicy"
+		    "secretsmanager:GetResourcePolicy"
       ],
       "Resource": "*"
     }
